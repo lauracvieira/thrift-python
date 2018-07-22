@@ -6,15 +6,15 @@ Thrift's Python implementation for the Distributed Informations Systems Developm
 Thyago Ribeiro and Laura Vieira
 
 ### How To Run 
-To run Thrift, the Numpy module is necessary. If you don't have it installed, use the following command:
+The application was built using Python 3. With Python 3 installed, to run Thrift, the Numpy module is necessary. If you don't have it installed, use the following command:
 
 ``` sudo python3 -m pip install numpy ```
 
 The other modules are already present in the folder.
 
 To execute the server:
-``` thrift_server.py ```
+``` python3 thrift_server.py ```
 
 To execute the client:
-``` thrift_client.py ```
+``` python3 thrift_client.py ```
 
