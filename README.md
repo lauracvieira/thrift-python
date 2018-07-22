@@ -1,9 +1,20 @@
 # thrift-python
 
 Thrift's Python implementation for the Distributed Informations Systems Development class at EACH-USP.
-Homework Group: Thyago Ribeiro e Laura Vieira
 
+###### Authors
+Thyago Ribeiro and Laura Vieira
 
-Implementação do thrift em Python para a disciplina de Desenvolvimento de Sistemas de Informação Distribuídos - EACH-USP.
-Dupla do trabalho: Thyago Ribeiro e Laura Vieira
+###### How To Run 
+To run Thrift, the Numpy module is necessary. If you don't have it installed, use the following command:
+
+> sudo python3 -m pip install numpy
+
+The other modules are already present in the folder.
+
+To execute the server:
+> thrift_server.py
+
+To execute the client:
+> thrift_client.py
 
